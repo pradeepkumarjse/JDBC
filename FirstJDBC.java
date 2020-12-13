@@ -12,9 +12,7 @@ class FirstJDBC
 		String password="";
 		Connection con=DriverManager.getConnection(url,username,password);
 		
-		
-		
-		if(con.isClosed())
+	        if(con.isClosed())
 		{
 			System.out.println("Connection is closed...");
 		}
@@ -27,11 +25,7 @@ class FirstJDBC
 		}catch(Exception e)
 		{
 			e.printStackTrace();
-		}
-		
-		
-		
-		
+		}	
 		
 		
 	
