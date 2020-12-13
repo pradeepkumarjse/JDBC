@@ -9,7 +9,7 @@ class FirstJDBC
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		String url="jdbc:mysql://localhost:3306/youtube1";
 		String username="root";
-		String password="Pradeep@1234";
+		String password="";
 		Connection con=DriverManager.getConnection(url,username,password);
 		
 		
